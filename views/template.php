@@ -11,6 +11,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>RecoApp</title>
+
+    <link href="./dist/tailwind/output.css" rel="stylesheet">
 </head>
 <body>
     
