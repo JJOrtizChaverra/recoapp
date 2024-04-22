@@ -12,6 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>RecoApp</title>
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="<?php echo TemplateController::path(); ?>views/dist/bootstrap/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -39,6 +42,10 @@
         ?>
 
     </main>
+
+    <!-- JS Bootstrap -->
+    <script src="<?php echo TemplateController::path(); ?>views/dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="<?php echo TemplateController::path(); ?>views/dist/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
