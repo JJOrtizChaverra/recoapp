@@ -6,4 +6,9 @@ class TemplateController
     {
         include "views/template.php";
     }
+
+    static public function path()
+    {
+        return "http://recoapp.com/";
+    }
 }
