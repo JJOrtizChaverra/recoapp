@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
 
@@ -14,9 +15,31 @@
 
     <link href="<?php TemplateController::path(); ?>views/dist/tailwind/output.css" rel="stylesheet">
 </head>
+
 <body>
-    
-    
+
+    <main>
+        
+        <?php
+
+        // Validamos si existe una variable get url
+        if (isset($_GET["url"])) {
+
+            // Dividimos esa variable get con un explode para obtener unicamente el valor de la url
+            $url = explode("/", $_GET["url"])[0];
+
+            // Incluimos segun el valor de la url
+            include "pages/$url/$url.php";
+        } else {
+
+            // Si no se encuentra la variable get url que inlcuya directamente el home de la aplicacion
+            include "pages/home/home.php";
+        }
+
+        ?>
+
+    </main>
 
 </body>
+
 </html>
