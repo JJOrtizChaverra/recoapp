@@ -12,14 +12,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>RecoApp</title>
-
-    <link href="<?php TemplateController::path(); ?>views/dist/tailwind/output.css" rel="stylesheet">
 </head>
 
 <body>
 
+    <?php include "modules/header.php"; ?>
+
     <main>
-        
+
         <?php
 
         // Validamos si existe una variable get url
