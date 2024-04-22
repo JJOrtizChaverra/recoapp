@@ -12,9 +12,11 @@
 
     <title>RecoApp</title>
 
-    <link href="./dist/tailwind/output.css" rel="stylesheet">
+    <link href="<?php TemplateController::path(); ?>views/dist/tailwind/output.css" rel="stylesheet">
 </head>
 <body>
     
+    
+
 </body>
 </html>
