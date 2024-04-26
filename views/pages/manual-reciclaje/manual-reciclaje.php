@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="container">
 
     <h1 class="text-center">Aprende a reconocer y reciclar estos materiales</h1>
 
@@ -10,50 +10,50 @@
                 <div class="col-12 col-md-3 flex-column">
 
                     <h2 class="accordion-header mb-2">
-                        <button class="accordion-button rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#carton" aria-expanded="true" aria-controls="carton">
+                        <button class="accordion-button rounded-4 border border-2 shadow" type="button" data-bs-toggle="collapse" data-bs-target="#carton" aria-expanded="true" aria-controls="carton">
                             Cartón
                         </button>
                     </h2>
 
                     <h2 class="accordion-header mb-2">
-                        <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#papel" aria-expanded="true" aria-controls="papel">
+                        <button class="accordion-button rounded-4 border border-2 shadow collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#papel" aria-expanded="true" aria-controls="papel">
                             Papel
                         </button>
                     </h2>
 
                     <h2 class="accordion-header mb-2">
-                        <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#plastico" aria-expanded="true" aria-controls="plastico">
+                        <button class="accordion-button rounded-4 border border-2 shadow collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#plastico" aria-expanded="true" aria-controls="plastico">
                             Plastico
                         </button>
                     </h2>
 
                     <h2 class="accordion-header mb-2">
-                        <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vidrio" aria-expanded="true" aria-controls="vidrio">
+                        <button class="accordion-button rounded-4 border border-2 shadow collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vidrio" aria-expanded="true" aria-controls="vidrio">
                             Vidrio
                         </button>
                     </h2>
 
                     <h2 class="accordion-header mb-2">
-                        <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#metal" aria-expanded="true" aria-controls="metal">
+                        <button class="accordion-button rounded-4 border border-2 shadow collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#metal" aria-expanded="true" aria-controls="metal">
                             Metal
                         </button>
                     </h2>
 
                     <h2 class="accordion-header mb-2">
-                        <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tetra-pak" aria-expanded="true" aria-controls="tetra-pak">
+                        <button class="accordion-button rounded-4 border border-2 shadow collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tetra-pak" aria-expanded="true" aria-controls="tetra-pak">
                             Tetra Pak
                         </button>
                     </h2>
 
                     <h2 class="accordion-header mb-2">
-                        <button class="accordion-button rounded-4 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#otros-residuos" aria-expanded="true" aria-controls="otros-residuos">
+                        <button class="accordion-button rounded-4 border border-2 shadow collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#otros-residuos" aria-expanded="true" aria-controls="otros-residuos">
                             Otros Residuos
                         </button>
                     </h2>
 
                 </div>
 
-                <div class="col m-2 bg-white rounded-3">
+                <div class="col m-2 bg-white rounded-3 border border-1 rounded-4">
 
                     <div id="carton" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                         <div class="accordion-body">

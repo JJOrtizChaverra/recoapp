@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="container">
 
     <div class="border-bottom border-primary border-3 pb-5">
         <h1 class="text-center mb-3">Si trabajas en el reciclaje de base ¡gracias! Tú eres fundamental para el cuidado del planeta</h1>

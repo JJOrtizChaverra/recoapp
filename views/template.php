@@ -13,6 +13,8 @@
 
     <title>RecoApp</title>
 
+    <link rel="shortcut icon" href="<?php echo TemplateController::path(); ?>views/assets/img/icono.png" type="image/x-icon">
+
     <!-- CSS Bootstrap -->
     <link rel="stylesheet" href="<?php echo TemplateController::path(); ?>views/dist/bootstrap/css/bootstrap.min.css">
 
@@ -32,24 +34,27 @@
 
     <?php include "modules/menu.php"; ?>
 
-    <?php
+    <main>
 
-    // Validamos si existe una variable get url
-    if (isset($_GET["url"])) {
+        <?php
 
-        // Dividimos esa variable get con un explode para obtener unicamente el valor de la url
-        $url = explode("/", $_GET["url"])[0];
+        // Validamos si existe una variable get url
+        if (isset($_GET["url"])) {
 
-        // Incluimos segun el valor de la url
-        include "pages/$url/$url.php";
-    } else {
+            // Dividimos esa variable get con un explode para obtener unicamente el valor de la url
+            $url = explode("/", $_GET["url"])[0];
 
-        // Si no se encuentra la variable get url que inlcuya directamente el home de la aplicacion
-        include "pages/inicio/inicio.php";
-    }
+            // Incluimos segun el valor de la url
+            include "pages/$url/$url.php";
+        } else {
 
-    ?>
+            // Si no se encuentra la variable get url que inlcuya directamente el home de la aplicacion
+            include "pages/inicio/inicio.php";
+        }
 
+        ?>
+
+    </main>
 
     <?php include "modules/footer.php"; ?>
 

@@ -1,4 +1,4 @@
-<section class="container mt-5">
+<section class="container">
     <h1 class="text-center">Nosotros</h1>
 
     <section class="row text-center border-bottom border-primary border-3">

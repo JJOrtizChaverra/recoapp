@@ -1,25 +1,23 @@
-<div class="container mt-5">
-    <div class="row border-bottom border-primary border-3 p-5">
+<div class="container">
+    <div class="row border-bottom border-primary border-3 pb-5">
         <div class="col-12 col-md-6">
             <figure>
                 <img class="img-fluid" src="<?php echo TemplateController::path(); ?>views/assets/img/logo.png" alt="logo">
             </figure>
 
-            <div class="fade-in">
-                <p class="fs-4 mb-4">La primera herramienta tecnológica y social de reciclaje inclusivo en Colombia que conecta a la ciudadanía con las y los recicladores de base.</p>
+            <p class="fs-4 mb-4">La primera herramienta tecnológica y social de reciclaje inclusivo en Colombia que conecta a la ciudadanía con las y los recicladores de base.</p>
 
-                <p class="fs-5 mb-4">Conectamos a la ciudadanía con recicladoras de base para recuperar material reciclable-retornable y entregarlo de forma directa y segura en sus manos, dignificando su trabajo mientras la ciudadanía obtiene puntos y premios en la ReciApp.</p>
+            <p class="fs-5 mb-4">Conectamos a la ciudadanía con recicladoras de base para recuperar material reciclable-retornable y entregarlo de forma directa y segura en sus manos, dignificando su trabajo mientras la ciudadanía obtiene puntos y premios en la ReciApp.</p>
 
-                <div class="d-flex gap-3">
-                    <button type="button" class="btn btn-lg btn-warning rounded-4">
-                        Descargar iOS
-                        <i class="bi bi-apple"></i>
-                    </button>
-                    <button type="button" class="btn btn-lg btn-warning rounded-4">
-                        Descargar Android
-                        <i class="bi bi-google-play"></i>
-                    </button>
-                </div>
+            <div class="d-flex gap-3 flex-column flex-md-row mb-3">
+                <button type="button" class="btn btn-warning rounded-4">
+                    Descargar iOS
+                    <i class="bi bi-apple"></i>
+                </button>
+                <button type="button" class="btn btn-warning rounded-4">
+                    Descargar Android
+                    <i class="bi bi-google-play"></i>
+                </button>
             </div>
         </div>
 
@@ -30,7 +28,7 @@
         </div>
     </div>
 
-    <div class="row mt-5 border-bottom border-primary border-3 p-5">
+    <div class="row mt-5 border-bottom border-primary border-3 pb-5">
 
         <h2 class="text-center mb-3">Funcionalidades RecoApp</h2>
 
@@ -71,7 +69,7 @@
 
     </div>
 
-    <div class="row p-5">
+    <div class="row mt-5 pb-5">
         <h2 class="text-center">Premios RecoApp</h2>
 
         <p class="text-center">Obtén puntos por tus entregas y canjéalos por premios exclusivos en los siguientes ReciNegocios.</p>
@@ -112,7 +110,7 @@
                 </button>
             </div>
 
-            <button type="button" class="btn border-2 border-primary rounded-4 fade-in">
+            <button type="button" class="btn border-2 border-primary rounded-4 mb-5 fade-in">
                 Descarga el manual de uso de la RecoApp
                 <i class="bi bi-download"></i>
             </button>

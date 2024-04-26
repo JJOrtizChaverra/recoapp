@@ -1,7 +1,7 @@
-<div class="container mt-5">
+<div class="container p-0">
 
     <div class="row align-items-center border-bottom border-primary border-3 pb-5">
-        <div class="col-12 col-md-6 fade-in">
+        <div class="col-12 col-md-6 mb-4 fade-in">
             <h1>Reco Eventos</h1>
 
             <p>Organizamos eventos lúdicos para recuperar residuos reciclables-retornables de tu empresa, también ofrecemos nuestro servicio de gestión de residuos reciclables-retornables para tus eventos y medimos el impacto positivo ambiental y social logrado.</p>
@@ -65,7 +65,7 @@
         <div class="col-12 mt-5 d-flex flex-column align-items-center gap-4 ">
             <h3>Clientes felices</h3>
 
-            <div id="carouselExample" class="carousel slide position-relative bg-white rounded-4">
+            <div id="carouselExample" class="carousel slide position-relative shadow-lg border border-1 rounded-4">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
 

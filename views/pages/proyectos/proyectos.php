@@ -1,4 +1,4 @@
-<div class="container mt-5">
+<div class="container">
     <h1 class="text-center">Proyectos RecoApp</h1>
 
     <p class="text-center fs-5">Conoce los proyectos en los que hemos trabajado fortaleciendo el reciclaje inclusivo y la economía circular.</p>

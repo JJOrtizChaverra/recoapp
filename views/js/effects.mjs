@@ -39,8 +39,15 @@ export const fadeInScroll = function () {
 
 export const sidebarMenu = function () {
     const hamBurger = document.querySelector(".toggle-btn");
+    const main = document.getElementsByTagName("main")[0];
+    const footer = document.getElementsByTagName("footer")[0];
+
+    console.log(main);
 
     hamBurger.addEventListener("click", function () {
         document.querySelector("#sidebar").classList.toggle("expand");
+
+        main.classList.toggle("main-expand");
+        footer.classList.toggle("main-expand");
     });
 }
